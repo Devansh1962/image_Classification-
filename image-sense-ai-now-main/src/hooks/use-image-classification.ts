@@ -27,10 +27,10 @@ export function useImageClassification(): UseImageClassificationReturn {
     setPredictions([]);
 
     try {
-      // Create the classification pipeline
+      // Create the classification pipeline with EfficientNet for high accuracy
       const classifier = await pipeline(
         'image-classification',
-        'onnx-community/mobilenetv4_conv_small.e2400_r224_in1k',
+        'onnx-community/efficientnet-lite4',
         { device: 'webgpu' }
       );
 
