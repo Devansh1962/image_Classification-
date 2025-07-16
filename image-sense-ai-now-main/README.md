@@ -1,16 +1,10 @@
 # Welcome to your image classification project
 
-## Project info
-
-**URL**: https://lovable.dev/projects/1222cbba-f4e0-4ea5-b555-d30134c1a4d4
-
 ## How can I edit this code?
 
+Url-https://imgclassi.netlify.app/
+
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the (https://lovable.dev/projects/1222cbba-f4e0-4ea5-b555-d30134c1a4d4) 
 
 **Use your preferred IDE**
 
@@ -56,6 +50,7 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+- EfficientNet-Lite4 model
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
